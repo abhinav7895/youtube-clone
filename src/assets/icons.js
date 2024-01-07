@@ -1,0 +1,36 @@
+import hamburgerIcon from "./asset 51.svg";
+import youtubeLogo from "./asset 52.svg";
+import searchIcon from "./asset 54.svg";
+import micIcon from "./asset 55.svg";
+import liveIcon from "./asset 56.svg";
+import notificationIcon from "./asset 58.svg";
+import homeIcon from "./asset 57.svg";
+import shortsIcon from "./asset 59.svg";
+import subsIcon from "./asset 60.svg";
+import user from "./asset 63.svg";
+import historyIcon from "./asset 64.svg";
+import yourVideosIcon from "./asset 65.svg";
+import watchLaterIcon from "./asset 66.svg";
+import downloadsIcon from "./asset 67.svg";
+import trendingIcon from "./asset 70.svg";
+import shoppingIcon from "./asset 71.svg";
+import musicIcon from "./asset 72.svg";
+import filmsIcon from "./asset 73.svg";
+import liveModeIcon from "./asset 74.svg";
+import gamingIcon from "./asset 75.svg";
+import newsIcon from "./asset 76.svg";
+import sportsIcon from "./asset 77.svg";
+import learningIcon from "./asset 78.svg";
+import fashionBeautyIcon from "./asset 79.svg";
+import podcastIcon from "./asset 80.svg";
+import premiumIcon from "./asset 81.svg";
+import studioIcon from "./asset 82.svg";
+import ytmusicIcon from "./asset 83.svg";
+import kidsIcon from "./asset 84.svg";
+import settingsIcon from "./asset 85.svg";
+import reportIcon from "./asset 86.svg";
+import helpIcon from "./asset 87.svg";
+import feedbackIcon from "./asset 88.svg";
+import userIcon from "./asset 1.jpeg";
+
+export {hamburgerIcon, youtubeLogo,searchIcon, micIcon, liveIcon,notificationIcon, userIcon, homeIcon, shortsIcon, subsIcon, user, historyIcon, yourVideosIcon, watchLaterIcon, trendingIcon, downloadsIcon, shoppingIcon, musicIcon, filmsIcon, gamingIcon, newsIcon, sportsIcon, learningIcon, fashionBeautyIcon, podcastIcon, premiumIcon, studioIcon, kidsIcon, settingsIcon, reportIcon, helpIcon, feedbackIcon, ytmusicIcon, liveModeIcon}
