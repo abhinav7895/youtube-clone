@@ -21,7 +21,7 @@ const Header = () => {
   }
 
   return (
-    <div className="w-full px-6 h-15  flex justify-between items-center h-[56px] fixed top-0 bg-white">
+    <div className="w-full px-6 h-15  flex justify-between items-center h-[56px] fixed top-0 bg-white z-20">
 
       <div className="flex items-center gap-4 flex-shrink-0 sm:pr-10">
         <div to={"/"}>

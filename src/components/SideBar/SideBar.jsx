@@ -31,16 +31,15 @@ import {
   userIcon,
 } from "../../assets/icons";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+
 const SideBar = () => {
   const isOpen = useSelector(store => store.sideBar.isOpen);
-  console.log(isOpen);
   return (
     <div  className={` bg-white flex flex-col fixed justify-start h-full overflow-y-auto  transition-transform duration-100 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-[224px]'}`}>
       {/* main  */}
-      <div className="w-[210px] pl-3 pt-3">
-        <Link to={"/"}><SideBarLink name={"Home"} src={homeIcon} alt={"Home"} /></Link>
-        <SideBarLink name={"Shorts"} src={shortsIcon} alt={"Shorts"} />
+      <div className="w-[210px] pl-3 mt-4">
+        <SideBarLink to="/" name={"Home"} src={homeIcon} alt={"Home"} />
+        <SideBarLink to={"/watch"} name={"Shorts"} src={shortsIcon} alt={"Shorts"} />
         <SideBarLink
           name={"Subscriptions"}
           src={subsIcon}

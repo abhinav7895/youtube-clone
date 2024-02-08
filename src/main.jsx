@@ -7,6 +7,7 @@ import store from "./utilities/store";
 import Home from "./components/Home/Home";
 import PlayVideo from "./components/PlayVideo/PlayVideo";
 import "./index.css";
+import Search from "./components/Search/Search";
 
 const bodyRouter = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const bodyRouter = createBrowserRouter([
         path: "watch",
         element: <PlayVideo />,
       },
+      {
+        path: "search",
+        element : <Search />
+      }
     ],
   },
 ]);
