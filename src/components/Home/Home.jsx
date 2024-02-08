@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import useYouTubeData from "../../hooks/useYouTubeData";
 import { nanoid } from "nanoid";
 import Shimmer from "../Shimmer/Shimmer";
-import HomeCategoryFilters from "./HomeCategoryFilters";
+
+
 const Home = () => {
   const isOpen = useSelector((store) => store.sideBar.isOpen);
   const data = useYouTubeData();
@@ -26,7 +27,6 @@ const Home = () => {
           : "gxsm:ml-6 gxsm:w-[calc(100vw)] "
       }    mt-5 pl-5 justify-between items-center`}
     >
-      <HomeCategoryFilters/>
       <div
         className={`${
           isOpen

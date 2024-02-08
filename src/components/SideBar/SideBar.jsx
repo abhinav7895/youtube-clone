@@ -39,7 +39,7 @@ const SideBar = () => {
       {/* main  */}
       <div className="w-[210px] pl-3 mt-4">
         <SideBarLink to="/" name={"Home"} src={homeIcon} alt={"Home"} />
-        <SideBarLink to={"/watch"} name={"Shorts"} src={shortsIcon} alt={"Shorts"} />
+        <SideBarLink  name={"Shorts"} src={shortsIcon} alt={"Shorts"} />
         <SideBarLink
           name={"Subscriptions"}
           src={subsIcon}
