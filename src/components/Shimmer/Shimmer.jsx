@@ -40,6 +40,7 @@ const Shimmer = () => {
                 >
                   <div className="w-full h-full rounded "></div>
                 </div>
+                {/* for text */}
                 <div className="flex flex-col gap-1">
                   <div className=" w-[240px] h-[20px] rounded bg-gray-200 shimmer-item animate-shimmer"></div>
                   <div className="w-[140px] h-[20px] rounded bg-gray-200 shimmer-item animate-shimmer"></div>

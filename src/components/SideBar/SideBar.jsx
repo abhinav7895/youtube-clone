@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SideBarLink from "./SideBarLink";
 import {
   homeIcon,
@@ -30,10 +30,20 @@ import {
   feedbackIcon,
   userIcon,
 } from "../../assets/icons";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { toggleSideBar } from "../../utilities/sideBarSlice";
 
 const SideBar = () => {
   const isOpen = useSelector(store => store.sideBar.isOpen);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    const handleIsOpen = (e) => {
+      if (window.innerWidth > 758) {
+        dispatch(toggleSideBar(true));
+      }
+    }
+    handleIsOpen()
+  },[]);
   return (
     <div  className={` bg-white flex flex-col fixed justify-start h-full overflow-y-auto  transition-transform duration-100 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-[224px]'}`}>
       {/* main  */}
